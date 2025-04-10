@@ -1,0 +1,240 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+  width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+    background-image: url('images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+
+    font-family: "Red Hat Display", sans-serif;
+    Font-size: 16px;
+
+}
+    
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;   
+}
+
+main {
+    max-width: 410px; 
+    height: auto;
+    border-radius: 20px;
+}
+
+div.principal {
+    justify-content: center;
+    align-content: center;
+
+    margin: auto;
+    background-color: white;
+    border-radius: 20px;
+    padding: 0 0 40px 0;
+}
+
+.principal button {
+    display: block;
+    width: 90%;
+    margin: auto;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  h1 {
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+    font-weight: 900;
+    padding-top: 25px;
+    
+  }
+  
+  p.texto {
+    margin: 10px;
+    padding: 0 30px;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+  }
+
+  .imagem {
+    width: 80px;
+    height: 80px;
+    padding: 20px 10px;
+  }
+
+.valores {
+    width: 90%;
+    height: 80px;
+    column-count: 3;   
+    border: 2px;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+    justify-content: center; 
+    align-items: center; 
+    transform: translate(5%);
+  }
+
+  div.anual {
+    color: hsl(223, 47%, 23%);
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 0px;
+    padding: 10px 0;
+    text-align: left;
+  }
+
+  div.anov {
+    color: hsl(224, 23%, 55%);
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  button.mudar {
+    border: none;
+    transform: translateY(70%);
+    background-color: hsl(225, 100%, 98%);
+    color: hsl(223, 47%, 23%);
+    font-size: 18px;
+    font-weight: 700;
+
+    padding: 7px 0;
+  }
+
+  button.mudar:hover {
+    color:  hsl(245, 75%, 52%);
+  }
+
+
+  .botoes {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px;
+  }
+
+  .botoes button {
+    max-width: 450px; 
+    padding: 12px;
+    font-size: 16px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    left: 10px;
+    font-family: "Red Hat Display", sans-serif;
+  }
+
+  .pagamento {
+    width: 90%;
+    padding-top: 15px;
+  }
+
+  #b1 {
+    width: 100%;
+    background-color: hsl(245, 75%, 52%);
+    color: white; 
+    font-weight: 700;
+
+  }
+  
+  #b1:hover {
+    background-color: hsl(225, 100%, 94%); 
+    color: hsl(245, 75%, 52%);
+  }
+
+  .cancelar {
+    width: 90%;
+  }
+
+  #b2 {
+    width: 100%;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+  }
+  
+  .cancelar button {
+    background-color: white;
+    color:  hsl(223, 47%, 23%); 
+  }
+  
+  .cancelar button:hover {
+    background-color: hsl(225, 100%, 94%); 
+    color:hsl(245, 75%, 52%);
+  }
+
+  @media screen and (min-width: 300px) and (max-width: 667px) {
+
+    body {
+      width: 100vw;
+      background-image: url('images/pattern-background-mobile.svg');
+      background-repeat: no-repeat;
+      background-size: contain;
+      Font-size: 15px;
+    }
+        
+    img {
+        max-width: 100%;
+        height: auto;
+        size: 50px;
+          }
+    
+    main {
+        width: 310px; 
+    }  
+    
+    div.principal {
+    padding: 0 0 15px 0;
+  }
+
+
+  h1 {
+    text-align: center;
+    font-weight: 700;
+    padding-top: 15px;
+    
+  }
+  
+  p.texto {
+    margin: 15px;
+    padding: 0 15px;
+  }
+
+  
+  .imagem {
+    padding-top: 2px 10px;
+  }
+
+  .valores {
+    transform: translate(5%);
+  }
+
+  div.anual {
+    font-size: 14px;
+    font-weight: 800;
+    margin-left: 0px;
+    padding-top: 20px;  
+  }
+
+  button.mudar {
+    font-size: 15px;
+    font-weight: 700;
+    padding: 9px 0;
+  }
+
+
+  }
