@@ -43,6 +43,7 @@ O desafio consistiu em replicar, com o máximo de fidelidade possível, o design
  - Desafio no Frontend Mentor
 
 ## Autor
-- Frontend Mentor - @seunomeusuario
-- Linkedin -
+- Frontend Mentor -[ @JanainaMmeira](https://www.frontendmentor.io/profile/JanainaMmeira)
+- Linkedin - [Janaína Moreira Meira](https://www.linkedin.com/in/janaína-moreira-meira-ab1674a5/)
+
 Obrigada!.
