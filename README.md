@@ -21,7 +21,7 @@ O desafio consistiu em replicar, com o máximo de fidelidade possível, o design
 - HTML5
 - CSS3
 - Organização de arquivos com boas práticas de estruturação;
-- Publicação do projeto via [GitHub Pages/Vercel/Netlify – substitua pelo serviço utilizado].
+- Publicação do projeto via [GitHub Pages].
 
 ## 🚧 Desafios enfrentados
 
